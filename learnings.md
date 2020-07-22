@@ -83,6 +83,32 @@ def check_embeddings_coverage(X, embeddings):
 
 
 
+
 ## Documentation
 
 1. Find a tool to draw architecture diagrams quickly
+
+
+
+
+## Referlinks
+
+### Code links
+
+1. https://www.kaggle.com/c/nlp-getting-started/notebooks
+2. https://www.kaggle.com/gunesevitan/nlp-with-disaster-tweets-eda-cleaning-and-bert#4.-Embeddings-and-Text-Cleaning
+3. https://www.kaggle.com/vbmokin/nlp-eda-bag-of-words-tf-idf-glove-bert
+4. https://www.kaggle.com/xhlulu/disaster-nlp-keras-bert-using-tfhub
+5. https://www.kaggle.com/ratan123/in-depth-guide-to-google-s-bert
+6. https://github.com/strongio/keras-elmo
+7. https://towardsdatascience.com/bert-in-keras-with-tensorflow-hub-76bcbc9417b
+
+### Course Links
+1. Theorectical: https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z
+
+
+## ToDo
+
+1. funational and sequential apis keras
+2. Bert architecture
+
