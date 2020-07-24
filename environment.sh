@@ -8,3 +8,4 @@ conda install tensorflow
 conda install scikit-learn
 !wget --quiet https://raw.githubusercontent.com/tensorflow/models/master/official/nlp/bert/tokenization.py
 conda install nltk
+pip install seaborn
