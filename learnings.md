@@ -82,13 +82,32 @@ def check_embeddings_coverage(X, embeddings):
 
 
 
-
-
 ## Documentation
 
 1. Find a tool to draw architecture diagrams quickly
 
 
+# Bert Theory
+## Encoder
+1. Self attention
+2. Feed-Forward networks
+
+## Decoder
+1. self attention
+2. Encoder-Decoder Attention
+3. Feed forward network
+
+
+## Popular pretrained BERT models
+1. BERT base: 12 encoder-decoder layers
+2. BERT large: 24 encoder-decoder layers
+
+## Vocabulary of the bert model
+<p> BERT model is trained on wikipedia and book corpus. The vocabulary of the BERT for english is around 27k words but because it uses subwords for new words this is sufficient. </p>
+
+
+## Question
+What is attention head
 
 
 ## Referlinks
@@ -105,6 +124,8 @@ def check_embeddings_coverage(X, embeddings):
 
 ### Course Links
 1. Theorectical: https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z
+2. Attention model by Andrew NG: https://www.youtube.com/watch?v=SysgYptB198
+3. Attention model by Andrew NG:
 
 
 ## ToDo
