@@ -73,6 +73,7 @@ class DisasterDetector:
         
         pooled_output, sequence_output = self.bert_layer([input_word_ids, input_mask, segment_ids])   
         clf_output = sequence_output[:, 0, :]
+        
         out = Dense(1, activation='sigmoid')(clf_output)
         
         model = Model(inputs=[input_word_ids, input_mask, segment_ids], outputs=out)
